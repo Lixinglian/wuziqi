@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: url(../img/1.jpg) no-repeat center center;
+  background-size: 100%;
+}
+
+.shan-box {
+  position: fixed;
+  width: 270px;
+  height: 250px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 10;
+  display: none;
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background: rgba(222, 221, 216, 0.7);
+}
+
+#canvasb {
+  position: absolute;
+  right: 100px;
+  bottom: 320px;
+  display: none;
+}
+
+#canvast {
+  position: absolute;
+  right: 100px;
+  bottom: 40px;
+  display: none;
+}
+
+.left-box {
+  width: 100px;
+  height: 220px;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 182px;
+  bottom: 50px;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.left-box li {
+  margin-bottom: 25%;
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  line-height: 36px;
+  border-radius: 5px;
+}
+
+.bchess {
+  position: absolute;
+  width: 44px;
+  height: 55px;
+  right: 180px;
+  top: 10px;
+  background: url(../img/1.png) no-repeat;
+  background-size: 90px 90px;
+}
+
+.wchess {
+  position: absolute;
+  width: 44px;
+  height: 55px;
+  right: 170px;
+  bottom: 260px;
+  background: url(../img/1.png) no-repeat;
+  background-size: 90px 90px;
+  background-position: -40px 0;
+}
